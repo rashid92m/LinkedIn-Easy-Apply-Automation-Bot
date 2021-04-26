@@ -172,7 +172,7 @@ if driver.find_element_by_id("cta-modal-header"):
     signIn()
     minimizeChatWindow()
     findAllJobsList()
-    # driver.quit()
+    driver.quit()
 
 
 
